@@ -52,7 +52,7 @@ provider-name="primaeval,GKoBu,TechNEWSology">
 </extension>
 </addon>
 
-<addon id="plugin.video.placenta" version="3.1.47" name="[B][COLOR orange]Placenta[/COLOR][/B]" provider-name="Team Afterbirth">
+<addon id="plugin.video.placenta" version="3.1.47a" name="[B][COLOR orange]Placenta[/COLOR][/B]" provider-name="Team Afterbirth">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.placenta" />
