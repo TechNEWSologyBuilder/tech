@@ -1796,13 +1796,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="repository.TechNEWSology" name="TechNEWSology Repository" version="0.2.3" provider-name="TechNEWSology">
 	<extension point="xbmc.addon.repository" name="TechNEWSology Repository">
-		<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/</datadir>
 			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/</datadir>
+				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/</datadir>
 			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml</info>
@@ -1810,9 +1807,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/</datadir>
 			</dir>
 			<dir>
-				<info compressed="false">https://bitbucket.org/technewsology/tech/src/main/addons.xml</info>
-				<checksum>https://bitbucket.org/technewsology/tech/src/main/addons.xml.md5</checksum>
-				<datadir zip="true">https://bitbucket.org/technewsology/tech/src/main/</datadir>
+				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/</datadir>
 			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
