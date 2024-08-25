@@ -482,7 +482,7 @@ v0.1.0.7
     </extension>
 </addon>
 
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Updater - Tools[/COLOR][/B]" version="20.31" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build[/COLOR][/B]" version="20.31" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -654,6 +654,249 @@ v0.1.0.7
         <icon>icon.jpg</icon>
     </assets>
 	</extension>
+</addon>
+
+<addon id="plugin.video.atlas" name="Atlas" version="20.78" provider-name="NP-Bugatsinho-TechNEWSology">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.six" />
+    <import addon="script.module.inputstreamhelper" />
+    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.module.pyxbmct" version="1.2.0"/>
+    <import addon="script.module.requests" version="2.19.1"/>
+    <import addon="plugin.video.youtube" version="6.8.10"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="el">ΑΤΛΑΣ ΕΛΛΗΝΙΚΟ ΠΡΟΣΘΕΤΟ</summary>
+    <description lang="el">ΤΑΙΝΕΣ ΚΑΙ ΣΕΙΡΕΣ ΜΕ ΥΠOΤΙΤΛΟΥΣ-ΕΛΛΗΝΙΚΕΣ-ΠΑΙΔΙΚΑ-ΜΟΥΣΙΚΗ.O Άτλας ήταν η μυθική μορφή που κρατούσε στους ώμους του το θόλο του Ουρανού πάνω από τη Γη.</description>
+    <disclaimer lang="el">Ο δημιουργός δεν φιλοξενεί ή διανέμει οποιαδήποτε από το περιεχόμενο που εμφανίζεται από αυτό το πρόσθετο και δεν έχει οποιαδήποτε σχέση με την ιστοσελίδα και τους ιδιοκτήτες αυτής.
+    </disclaimer>
+    <summary lang="en">ΑΤΛΑΣ ΕΛΛΗΝΙΚΟ ΠΡΟΣΘΕΤΟ</summary>
+    <description lang="en">ΤΑΙΝΕΣ ΚΑΙ ΣΕΙΡΕΣ ΜΕ ΥΠOΤΙΤΛΟΥΣ-ΕΛΛΗΝΙΚΕΣ-ΠΑΙΔΙΚΑ-ΜΟΥΣΙΚΗ.O Άτλας ήταν η μυθική μορφή που κρατούσε στους ώμους του το θόλο του Ουρανού πάνω από τη Γη.</description>
+    <disclaimer lang="en">Ο δημιουργός δεν φιλοξενεί ή διανέμει οποιαδήποτε από το περιεχόμενο που εμφανίζεται από αυτό το πρόσθετο και δεν έχει οποιαδήποτε σχέση με την ιστοσελίδα και τους ιδιοκτήτες αυτής.
+    </disclaimer>
+    <language>en el</language>
+    <license>GNU GPL, version 2</license>
+    <news>[B][COLOR white]ΑΤΛΑΣ[/COLOR][/B]
+    - [B][COLOR lime]v20.60[/COLOR][/B] 24/04/2024
+       Διορθώσεις κώδικα - DaddyLive, Gamato
+    - [B][COLOR lime]v20.59[/COLOR][/B] 22/04/2024
+       Διορθώσεις κώδικα - DaddyLive, Gamato
+    - [B][COLOR lime]v20.58[/COLOR][/B] 20/04/2024
+       Διορθώσεις κώδικα - DaddyLive, Gamato
+    - [B][COLOR lime]v20.54[/COLOR][/B] 07/04/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.53[/COLOR][/B] 04/04/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.51[/COLOR][/B] 29/03/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.50[/COLOR][/B] 27/03/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.49[/COLOR][/B] 24/03/2024
+       Διορθώσεις κώδικα - Gamato
+       Προσθήκη - Δωρεά και Υποστήριξη
+    - [B][COLOR lime]v20.48[/COLOR][/B] 21/03/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.46[/COLOR][/B] 17/03/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.45a[/COLOR][/B] 05/03/2024
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.44[/COLOR][/B] 01/03/2024
+       Διορθώσεις κώδικα - An1me
+    - [B][COLOR lime]v20.43t[/COLOR][/B] 29/02/2024
+       Προσθήκη An1me
+       Διορθώσεις κώδικα - Myvideolinks
+    - [B][COLOR lime]v20.41[/COLOR][/B] 27/02/2024
+       Διορθώσεις κώδικα - Myvideolinks
+    - [B][COLOR lime]v20.40[/COLOR][/B] 26/02/2024
+       Διορθώσεις κώδικα - Anymovies
+       Διορθώσεις κώδικα - Greek-Movies (Αθλητικά - Παιδικά)
+    - [B][COLOR lime]v20.39[/COLOR][/B] 22/02/2024
+       Διορθώσεις κώδικα - Gamato - (κατηγορίες)
+    - [B][COLOR lime]v20.38[/COLOR][/B] 11/02/2024
+       Διορθώσεις κώδικα - Gamatomovies
+    - [B][COLOR lime]v20.37[/COLOR][/B] 28/01/2024
+       Διορθώσεις κώδικα - DaddyLiveHD, Gamato, Doomovies, Xrysoi, Tainiomania, Gamatomovies
+    - [B][COLOR lime]v20.36[/COLOR][/B] 21/01/2024
+       Διορθώσεις κώδικα - DaddyLiveHD
+       Διορθώσεις κώδικα - Gamato - Goojara
+    - [B][COLOR lime]v20.33a[/COLOR][/B] 10/01/2024
+       Διορθώσεις κώδικα - Gamato
+       Διορθώσεις κώδικα - Doomovies
+    - [B][COLOR lime]v20.32[/COLOR][/B] 30/12/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.30[/COLOR][/B] 30/12/2023
+       Διορθώσεις κώδικα - Gamato(Διόρθωση αναζήτησης)
+    - [B][COLOR lime]v20.29[/COLOR][/B] 26/12/2023
+       Διορθώσεις κώδικα - Gamato(Διορθώσεις κατηγοριών)
+    - [B][COLOR lime]v20.28[/COLOR][/B] 09/12/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.27a[/COLOR][/B] 07/10/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.26[/COLOR][/B] 19/09/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.25[/COLOR][/B] 18/09/2023
+       Διορθώσεις κώδικα - Gamato
+       Διορθώσεις κώδικα - DaddyLiveHD
+       Διορθώσεις κώδικα - Myvideolinks
+    - [B][COLOR lime]v20.24a[/COLOR][/B] 31/08/2023
+       Προσθήκη DaddyLiveHD
+    - [B][COLOR lime]v20.23[/COLOR][/B] 30/08/2023
+       Προσθήκη Mvtvlook
+    - [B][COLOR lime]v20.22[/COLOR][/B] 25/08/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.21[/COLOR][/B] 24/08/2023
+       Προσθήκη Gowatchseries
+       Διορθώσεις κώδικα - Fmovies
+       Διορθώσεις κώδικα - Doomovies
+       Διορθώσεις αναζήτησης Doomovies
+    - [B][COLOR lime]v20.20a[/COLOR][/B] 05/08/2023
+       Διορθώσεις κώδικα - Xrysoi
+       Διορθώσεις κώδικα - Gamatomovies
+       Διορθώσεις αναζήτησης Gamatomovies
+    - [B][COLOR lime]v20.19[/COLOR][/B] 27/07/2023 * Εκρήξεις Πυρομαχικών Ν.Αγχιάλου *
+       Διορθώσεις κώδικα - Xrysoi
+       Διορθώσεις αναζήτησης Xrysoi
+    - [B][COLOR lime]v20.18[/COLOR][/B] 17/07/2023
+       Προσθήκη Watchseries
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.17[/COLOR][/B] 14/07/2023
+       Προσθήκη Greek-movies (Ταινίες-Αθλητικά-Θέατρο)
+       Προσθήκη κατηγορίας Αθλητικά - Θέατρο
+       Διορθώσεις κώδικα - Myvideolinks
+       Διορθώσεις κώδικα - Fmovies
+    - [B][COLOR lime]v20.16a[/COLOR][/B] 05/07/2023
+       Διορθώσεις κώδικα - Myvideolinks
+       Διορθώσεις στην αναζήτηση των ιστότοπων
+       Προσθήκη Goojara
+       Προσθήκη Couchtuner
+       Προσθήκη στις ρυθμίσεις επιλογής αυτόματης ανίχνευσης υποτίτλων στην έναρξη του βίντεο
+    - [B][COLOR lime]v20.15[/COLOR][/B] 30/06/2023
+       Διορθώσεις κώδικα - Gamato
+       Διορθώσεις κώδικα - Myvideolinks
+       Διορθώσεις κώδικα - Gamatomovies
+       Προσθήκη αυτόματης ανίχνευσης υποτίτλων στην έναρξη του βίντεο
+    - [B][COLOR lime]v20.14[/COLOR][/B] 24/06/2023
+       Προσθήκη Myvideolinks
+       Διόρθωση της αναζήτησης των ιστότοπων
+    - [B][COLOR lime]v20.13[/COLOR][/B] 21/06/2023
+       Προσθήκη DooMovies
+       Αφαίρεση Tainiesonline
+       Αφαίρεση Watchseries
+       Αφαίρεση Anymovies
+    - [B][COLOR lime]v20.12[/COLOR][/B] 02/06/2023
+       Διορθώσεις κώδικα - Gamato (Εισαγωγή περίληψης - Διόρθωση Domain)
+    - [B][COLOR lime]v20.11[/COLOR][/B] 20/05/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.10[/COLOR][/B] 16/05/2023
+       Ομαδοποίηση κατηγοριών ανά ιστότοπο
+       Προσθήκη κατηγοριών (Cinema, Χώρα) - Fmovies
+       Προσθήκη κατηγορίας (Συλλογές) - Gamato
+       Αφαίρεση κατηγορίας Ξένες Σειρές - Tainiomania (μέχρι αποκατάστασης του μπλοκαρίσματος στο site)
+       Διορθώσεις κώδικα - Xrysoi
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.9[/COLOR][/B] 22/04/2023
+       Διορθώσεις κώδικα - xrysoi - gamato
+    - [B][COLOR lime]v20.8[/COLOR][/B] 18/04/2023
+       Διορθώσεις κώδικα - tainiomania - Σειρές
+    - [B][COLOR lime]v20.7t[/COLOR][/B] 16/04/2023
+       Διορθώσεις κώδικα - xrysoi
+       Διορθώσεις κώδικα - tainiomania
+    - [B][COLOR lime]v20.6[/COLOR][/B] 07/04/2023
+       Διορθώσεις κώδικα - Gamato (domain)
+    - [B][COLOR lime]v20.5[/COLOR][/B] 30/03/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.4[/COLOR][/B] 28/03/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.3[/COLOR][/B] 24/03/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.2a[/COLOR][/B] 12/03/2023
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v20.1[/COLOR][/B] 07/03/2023 * Αντίο Θείε! *
+       Διορθώσεις κώδικα - Gamato
+       Διόρθωση αναζήτησης
+       Προσθήκη κατηγορίας Ασιατικές Ταινίες
+    - [B][COLOR lime]v20.0[/COLOR][/B] 28/02/2023
+       Διορθώσεις κώδικα
+    - [B][COLOR lime]v19.0.53[/COLOR][/B] 19/02/2023
+       Διορθώσεις κώδικα - Tainiomania
+    - [B][COLOR lime]v19.0.52[/COLOR][/B] 18/02/2023
+       Προσθήκη κατηγορίας Παλιές Σειρές
+       Προσθήκη Fanart Ταινίας
+       Προσθήκη πληροφοριών Ταινίας
+       Διορθώσεις κώδικα - Myvideolinks
+    - [B][COLOR lime]v19.0.50[/COLOR][/B] 13/02/2023
+       Προσθήκη πληροφοριών Ταινίας
+       Προσθήκη - Διόρθωση Προβολής Ταινιών (Views)
+       Διορθώσεις κώδικα - Tainiomania (*credit bugatsinho*) - Gamatomovies - Xrysoi - Fmovies - Watchseries - Anymovies
+    - [B][COLOR lime]v19.0.49[/COLOR][/B] 03/01/2023
+       Διορθώσεις κώδικα - Gamato - Gamatomovies - Fmovies - Προσθήκη Coolmoviezone
+    - [B][COLOR lime]v19.0.48[/COLOR][/B] 26/12/2022
+       Διορθώσεις κώδικα - Gamato - Gamatomovies
+    - [B][COLOR lime]v19.0.47[/COLOR][/B] 25/11/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.46[/COLOR][/B] 15/11/2022
+       Διορθώσεις κώδικα - Gamato(Ταινίες)
+    - [B][COLOR lime]v19.0.45[/COLOR][/B] 30/10/2022
+       Διορθώσεις κώδικα - Tainiomania
+    - [B][COLOR lime]v19.0.44[/COLOR][/B] 08/09/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.43[/COLOR][/B] 07/09/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.42[/COLOR][/B] 31/08/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.41[/COLOR][/B] 31/08/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.40[/COLOR][/B] 30/08/2022
+       Διορθώσεις κώδικα - Fmovies - Gamato
+    - [B][COLOR lime]v19.0.39[/COLOR][/B] 27/08/2022
+       Διορθώσεις κώδικα - Fmovies
+    - [B][COLOR lime]v19.0.38[/COLOR][/B] 27/08/2022
+       Διορθώσεις κώδικα - Gamato - Προσθήκη Fmovies
+    - [B][COLOR lime]v19.0.37[/COLOR][/B] 23/08/2022
+       Διορθώσεις κώδικα - Προσθήκη Watchseries (Ταινίες - Σειρές Anime) - Προσθήκη Anymovies κατηγορία 18+ - Gamato - Tainiomania - Myvideolinks
+    - [B][COLOR lime]v19.0.34[/COLOR][/B] 18/08/2022
+       Διορθώσεις κώδικα - Gamato - Sites Search
+    - [B][COLOR lime]v19.0.33[/COLOR][/B] 16/08/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.32[/COLOR][/B] 11/08/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.31[/COLOR][/B] 19/05/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.30[/COLOR][/B] 19/05/2022
+       Διορθώσεις κώδικα - Προσθήκη Gamatomovies(Ξένες Σειρές)
+    - [B][COLOR lime]v19.0.29[/COLOR][/B] 17/05/2022
+       Προσθήκη Gamatomovies - gamatomovies.gr
+    - [B][COLOR lime]v19.0.28[/COLOR][/B] 09/05/2022
+       Διορθώσεις κώδικα
+       Προσθήκη Ντοκιμαντέρ - ntokimanter.gr
+    - [B][COLOR lime]v19.0.27[/COLOR][/B] 19/04/2022
+       Διορθώσεις κώδικα
+    - [B][COLOR lime]v19.0.26[/COLOR][/B] 14/04/2022
+       Προσθήκη κατηγοριών Ομάδες κ' Ψάρεμα
+       Διορθώσεις κώδικα - Coolmoviezone
+    - [B][COLOR lime]v19.0.25[/COLOR][/B] 10/04/2022
+       Διορθώσεις κώδικα - (Trailer)Gamato
+       Προσθήκη Ξένων Σειρών - Tainiomania
+    - [B][COLOR lime]v19.0.23[/COLOR][/B] 04/04/2022
+       Διορθώσεις κώδικα - Gamato
+    - [B][COLOR lime]v19.0.22[/COLOR][/B] 02/04/2022
+       Διορθώσεις κώδικα - Coolmoviezone
+    - [B][COLOR lime]v19.0.21[/COLOR][/B] 01/04/2022
+       Διορθώσεις κώδικα - Προσθήκη Coolmoviezone
+    - [B][COLOR lime]v19.0.20[/COLOR][/B] 30/03/2022
+       Διορθώσεις κώδικα - (myvideolinks)
+    - [B][COLOR lime]v19.0.19[/COLOR][/B] 28/03/2022
+    </news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.blacklodge" name="Blacklodge" provider-name="bob" version="1.05.06t">
@@ -1215,62 +1458,11 @@ provider-name="jurialmunkey">
   </extension>
 </addon>
 
-  <addon
-  id="repository.arrownegra"
-  name="[COLOR red]Arrow[/COLOR] [COLOR black]Negra[/COLOR] [COLORcyan]Repository[/COLOR]"
-  version="2.06"
-  provider-name="Flecha Negra">
-  <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.addon.repository" name="[COLOR red]Arrow Negra [COLOR red]Repositorio[/COLOR]">
-      <dir>
-      <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/addons.xml</info>
-      <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master</datadir>
-      <hashes>false</hashes>
-  </dir>
-  <dir minversion="19.9.9">
-      <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus/addons.xml</info>
-      <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/nexus</datadir>
-      <hashes>false</hashes>
-  </dir>
-  <dir minversion="19.0.0">
-      <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml</info>
-      <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/matrix</datadir>
-      <hashes>false</hashes>
-  </dir>
-  <dir minversion="17.0.0" maxversion="18.9.0">
-      <info compressed="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml</info>
-      <checksum>https://raw.github.com/arrownegra/arrownegra.github.io/master/leia/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/arrownegra/arrownegra.github.io/master/leia</datadir>
-      <hashes>false</hashes>
-  </dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>repositorio Arrow Negra</summary>
-    <description>repositorio oficial Arrow Negra - Proibido reproducao sem autorização prévia</description>
-    <disclaimer></disclaimer>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
-<addon id="repository.atlas" name="Atlas Repository" version="0.0.2" provider-name="NP-Bugatsinho -(Modified by TechNEWSology)">
+<addon id="repository.atlas" name="Atlas Repository" version="0.0.2" provider-name="NP - Bugatsinho - TechNEWSology">
 	<extension point="xbmc.addon.repository" name="Atlas Repository">
 		<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/atlas/main/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/atlas/main/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/atlas/main/</datadir>
-		<dir>
-			<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_atlas_repo/addons.xml</info>
-			<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_atlas_repo/addons.xml.md5</checksum>
-			<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_atlas_repo/</datadir>
-		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
@@ -1602,31 +1794,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.TechNEWSology" name="TechNEWSology Repository" version="0.2.2" provider-name="TechNEWSology">
+<addon id="repository.TechNEWSology" name="TechNEWSology Repository" version="0.2.3" provider-name="TechNEWSology">
 	<extension point="xbmc.addon.repository" name="TechNEWSology Repository">
-		<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_repo/addons.xml</info>
-		<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repo/</datadir>
-			<dir minversion="17.9.9">
-				<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoLeia/addons.xml</info>
-				<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_repoLeia/addons.xml.md5</checksum>
-				<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoLeia/</datadir>
-			</dir>
-			<dir minversion="18.9.9">
-				<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoMatrix/addons.xml</info>
-				<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_repoMatrix/addons.xml.md5</checksum>
-				<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoMatrix/</datadir>
-			</dir>
-			<dir minversion="19.9.9">
-				<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoNexus/addons.xml</info>
-				<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_repoNexus/addons.xml.md5</checksum>
-				<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoNexus/</datadir>
-			</dir>
-			<dir minversion="20.9.9">
-				<info compressed="false">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoOmega/addons.xml</info>
-				<checksum>https://gknwizard.eu/repo/Builds/TechNEWsology/_repoOmega/addons.xml.md5</checksum>
-				<datadir zip="true">https://gknwizard.eu/repo/Builds/TechNEWsology/_repoOmega/</datadir>
-			</dir>
+		<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/</datadir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml.md5</checksum>
@@ -1636,6 +1808,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://bitbucket.org/technewsology/tech/src/main/addons.xml</info>
+				<checksum>https://bitbucket.org/technewsology/tech/src/main/addons.xml.md5</checksum>
+				<datadir zip="true">https://bitbucket.org/technewsology/tech/src/main/</datadir>
 			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
@@ -1649,7 +1826,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
+			<fanart>fanart.png</fanart>
 		</assets>
 	</extension>
 </addon>
