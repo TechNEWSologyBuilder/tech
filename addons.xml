@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build[/COLOR][/B]" version="20.31" provider-name="TechNEWSology">
+<addon id="plugin.program.downloader19" name="[B][COLOR orange]TechNEWSology Build[/COLOR][/B]" version="21.10" provider-name="TechNEWSology">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -26,68 +26,5 @@
 			<fanart>fanart.png</fanart>
 		</assets>
 	</extension>
-</addon>
-
-<addon id="repository.TechNEWSology" name="TechNEWSology Repository" version="0.2.3" provider-name="TechNEWSology">
-	<extension point="xbmc.addon.repository" name="TechNEWSology Repository">
-			<dir minversion="18.9.9">
-				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/tech/main/</datadir>
-			</dir>
-			<dir minversion="19.9.9">
-				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/nexus/main/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/nexus/main/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/nexus/main/</datadir>
-			</dir>
-			<dir minversion="20.9.9">
-				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilder/omega/main/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/TechNEWSologyBuilds/Builds/master/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
-			</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>TechNEWSology Repository</summary>
-		<description>TechNEWSology Build Repo</description>
-		<platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.png</fanart>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="service.TechNEWSology.Build" name="[B][COLOR orange]Install Kodi Binary Addons[/COLOR][/B]" version="19.0.21" provider-name="TechNEWSology">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="vfs.sftp" />
-    <import addon="vfs.rar" />
-    <import addon="vfs.libarchive" />
-    <import addon="inputstream.rtmp" />
-    <import addon="inputstream.adaptive" />
-  </requires>
-  <extension point="xbmc.python.script" library="addon.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">TechNEWSology Build Service</summary>
-    <description lang="en">TechNEWSology Build Service</description>
-    <disclaimer>TechNEWSology Build Service</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-  </extension>
 </addon>
 </addons>
